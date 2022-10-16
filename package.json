@@ -4,8 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "start": "npx ts-node src/index.ts"
+    "build": "tsc -p tsconfig.build.json"
   },
   "author": "",
   "license": "ISC",
