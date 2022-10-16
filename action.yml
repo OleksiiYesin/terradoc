@@ -1,0 +1,12 @@
+name: 'Terraform Docs'
+author: 'Oleksii Yesin'
+description: 'Generating Terraform Documentation'
+
+inputs:
+  tf_working_dir:
+    description: 'working dir'
+    required: false
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
